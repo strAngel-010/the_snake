@@ -1,11 +1,10 @@
 from __future__ import annotations
 
 import random
+import sys
 from typing import Optional, Sequence
 
 import pygame as pg
-
-import sys
 
 # Псевдонимы типов (Type Aliases) для читаемости
 Position = tuple[int, int]
